@@ -2,9 +2,38 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pgheader{
+  background-size: cover;
+  background-position: center;
+  background-image: url("./banner.jpg");
+
+  color: white;
+  padding-top:2em;
+  padding-bottom: 5em;
+}
+
+.Navbar {
+  margin:0;
+  overflow: hidden;
+  width: 100%;
+
+  background-color: black;
+  color:white;
+}
+
+.Navbutton{
+  display:block;
+  float:left;
+  padding: 1em 2em;
+  margin: 0.5em;
+  
+  background-color: darkolivegreen;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.Navbutton:hover{
+  background-color: #282c34;
 }
 
 @media (prefers-reduced-motion: no-preference) {
