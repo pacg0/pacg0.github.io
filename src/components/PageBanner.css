@@ -1,0 +1,8 @@
+.pgbanner{
+  background-size: cover;
+  background-position: center;
+
+  color: black;
+  padding-top:2em;
+  padding-bottom: 5em;
+}

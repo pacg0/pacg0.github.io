@@ -1,0 +1,7 @@
+compiling + shipping new version of site to gh pages :
+
+npm run deploy
+
+development server :
+
+npm start 
