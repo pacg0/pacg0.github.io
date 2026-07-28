@@ -39,3 +39,22 @@
 .Navbutton:hover{
   background-color: #282c34;
 }
+
+.App-footer{
+  background-color: #282c34;
+  height: 10vw;
+
+  color: #ded7d7;
+  margin-top: 5vw;
+  padding-top: 1vw;
+
+  font-size: medium;
+}
+
+.footer-container{
+  margin-top: 2vw;
+  display: flex;
+  flex-flow:row;
+  justify-content: space-evenly;
+
+}

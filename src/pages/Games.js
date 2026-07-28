@@ -1,11 +1,11 @@
-export default function Games() {
+import './Games.css'
+
+export default function Prog() {
+
     return (
-        <div className="games-container">
-                <section id="games">
-                <h3 className="games-title">mgaemse</h3>
-                <p className="games-text">gaming
-                </p>
-            </section>
-            </div>
+        <div className="games-page">
+            <h1 className="games-header">Game Projects</h1>
+            <p> ive made game.s . video games</p>
+        </div>
     );
 }

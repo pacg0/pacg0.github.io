@@ -1,11 +1,11 @@
+import './Misc.css'
+
 export default function Misc() {
+
     return (
-        <div className="misc-container">
-                <section id="misc">
-                <h3 className="misc-title">Miscellaneous</h3>
-                <p className="misc-text">Misc Stuff Here ...
-                </p>
-            </section>
-            </div>
+        <div className="misc-page">
+            <h1 className="misc-header">Miscellaneous</h1>
+            <p> other stuff about me . i love gaming ! i lo</p>
+        </div>
     );
 }

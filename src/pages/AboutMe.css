@@ -1,0 +1,40 @@
+.abt-me-page{
+
+}
+
+.abt-me-header{
+  background-size: cover;
+  background-position: 0px -300px;
+  background-image: url("../assets/abt_me_banner.jpg");
+
+  height: 4em;
+  padding-top:1.5em;
+  padding-bottom: 5em;
+
+  font-weight: 900;
+  padding-left:1.8em;
+}
+
+.abt-me-container{
+  margin: 5vw;
+  background-color: #26492f;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.abt-me-blurb{
+  margin: 5vw;
+  width: 50%;
+  font-size: large;
+}
+
+.pr-img{
+  width: 20vw;
+  margin:5vw;
+}
+
+a{
+  color: #7ec4d9;
+}

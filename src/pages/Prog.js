@@ -1,19 +1,11 @@
 import './Prog.css'
 
-//import '../assets/dist/assets/index-Dur6ULu5.js'
-
-
 export default function Prog() {
+
     return (
-    <div>
-        
-    </div>  
+        <div className="prog-page">
+            <h1 className="prog-header">Programming Projects</h1>
+            <p> be so forreal .</p>
+        </div>
     );
-
-
-    // return (
-    //     <div className="prog-page">
-    //         <h1 className="prog-header">Games</h1>
-    //     </div>
-    // );
 }

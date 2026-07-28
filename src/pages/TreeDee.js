@@ -1,11 +1,11 @@
+import './TreeDee.css'
+
 export default function TreeDee() {
+
     return (
-        <div className="3D-container">
-                <section id="about">
-                <h3 className="3d-title">3D art</h3>
-                <p className="3d-text">My small collection of 3D art. it's all dogshit .
-                </p>
-            </section>
-            </div>
+        <div className="3d-page">
+            <h1 className="trd-header">3D Art Projects</h1>
+            <p> this is where we put . 3D stuf f .... ...</p>
+        </div>
     );
 }

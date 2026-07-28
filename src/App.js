@@ -28,18 +28,19 @@ function Navigation(){
 }
 
 // TODO :: 
-// Home :
-//  collection of the stuff i am MOSTTT!!!! proud offff
-// About Me ;:
-//  short description of educational background, etc.
+// Home content :
+//  screenshots of various projects (prime weaver, broken dreams, vulkan shit , etc.)
+// About Me content ;:
+//  image of my fat chud face + description of educational background, studio and stuff
+// IMPORTANT ::: links to other things
 // programming projects :
-//  games and such . embedded viewport for sub game, itch games .. /??
-// 2D art :
-//   lol
+//  literally just the vulkan project. lol
+// Games :
+//   screenshots of prime weaver, broken dreams, viewports of itch games + sub game if possible 
 // 3D art :
-//  it would be cool to have viewports to inspect models, etc. 
+//  dude . lock in . make some stuff for this i guess .
 // misc :
-// idk!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//  final fantasy xiv . some drawingsmaybe
 
 // other tasks :
 // unique banners for each page :) 
@@ -52,8 +53,7 @@ function App() {
     <Router>
       <div className="App">
           <Navigation />
-        <header className="App-header">
-        </header>
+        <header className="App-header"/>
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-me" element={<AboutMe />} />
@@ -63,9 +63,28 @@ function App() {
             <Route path="/games" element={<Games />} />
             <Route path="/3d-projects" element={<TreeDee />} />
           </Routes>
-        <main id="home" className="App-main">
-          
-        </main>
+          <footer className="App-footer">
+            <b>Various Links : </b>
+            <div className="footer-container">
+              <div>
+                <b>Other sites : </b>
+                <br/>
+                <a href="https://www.linkedin.com/in/isidro-godoy-03b7292a3">Linkedin</a>
+                <br/>
+                <a href="https://pacg0.itch.io/">itch.io</a>
+                <br/>
+                <a href="https://github.com/pacg0/">Github</a>
+              </div>
+              <div>
+                <b>Contacts : </b> 
+                <br/>
+                email : <a href="mailto:pacurro.g@gmail.com">pacurro.g@gmail.com</a>
+                <br/>
+                Discord : aboress
+                <br/>
+              </div>
+            </div>
+          </footer>
       </div>
     </Router>
   );

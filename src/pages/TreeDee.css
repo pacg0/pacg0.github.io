@@ -1,0 +1,13 @@
+.trd-header{
+  background-size: cover;
+  background-position: 0px -300px;
+  background-image: url("../assets/3D_banner.jpg");
+
+  height: 4em;
+  padding-top:1.5em;
+  padding-bottom: 5em;
+
+  font-weight: 900;
+  padding-left:1.8em;
+}
+
