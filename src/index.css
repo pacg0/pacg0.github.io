@@ -14,3 +14,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a{
+  color: #7ec4d9;
+}
+
+.default-header{
+  background-size: cover;
+  background-position: 0px -300px;
+
+  height: 4em;
+  padding-top:1.5em;
+  padding-bottom: 5em;
+
+  font-weight: 900;
+  padding-left:1.8em;
+}
+
+.default-container{
+  margin: 5vw;
+  background-color: #26492f;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.default-sub-container{
+  margin: 1vw;
+  background-color: #282c34;
+
+  padding: 1vw;
+  width: 50vw;
+
+}
+
+.default-image{
+  width: 30vw;
+  height: 30vw;
+}

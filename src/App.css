@@ -31,7 +31,7 @@
   padding: 1em 2em;
   margin: 0.5em;
   
-  background-color: darkolivegreen;
+  background-color: rgb(61, 107, 47);
   color: #ded7d7;
   text-decoration: none;
 }
@@ -58,3 +58,4 @@
   justify-content: space-evenly;
 
 }
+

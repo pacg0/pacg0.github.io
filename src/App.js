@@ -1,4 +1,3 @@
-import PageBanner from './components/PageBanner.js'
 
 import AboutMe from './pages/AboutMe.js'
 import Home from './pages/Home.js'
@@ -6,6 +5,9 @@ import Misc from './pages/Misc.js'
 import Prog from './pages/Prog.js'
 import Games from './pages/Games.js'
 import TreeDee from './pages/TreeDee.js'
+
+import Visualizer from './pages/subpages/Visualizer.js'
+
 
 import './App.css';
 
@@ -60,6 +62,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/misc" element={<Misc />} />
             <Route path="/programming-projects" element={<Prog />} />
+            <Route path="/programming-projects/visualizer" element={<Visualizer />} />
             <Route path="/games" element={<Games />} />
             <Route path="/3d-projects" element={<TreeDee />} />
           </Routes>
@@ -85,6 +88,7 @@ function App() {
               </div>
             </div>
           </footer>
+
       </div>
     </Router>
   );

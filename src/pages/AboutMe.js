@@ -4,10 +4,10 @@ import profile from '../assets/profile_image.jpg'
 export default function AboutMe() {
 
     return (
-        <div className="abt-me-page">
+        <div>
             <h1 className="abt-me-header">About Me</h1>
-            <div className="abt-me-container">
-                <p className="abt-me-blurb" >
+            <div className="default-container">
+                <p className="default-sub-container" >
                     Hello! My name is Isidro (Paco) Godoy. 
                     I've been playing games for almost as long as I can remember.. 
                     I believe that beyond being a fun way to pass time, video games are a unique way to tell stories, and when done effectively, can be as thought-provoking as any other artistic medium! 
@@ -32,7 +32,7 @@ export default function AboutMe() {
                     In any case, thank you for visiting ! o7
 
                 </p>
-                <img src={profile} className="pr-img" alt="The image of me is not loading. please pretend for now."/>
+                <img src={profile} className="pr-img" alt="An image of me. please pretend for now."/>
             </div>
         </div>
     );
