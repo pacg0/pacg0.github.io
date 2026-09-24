@@ -4,7 +4,6 @@ import InfoBox from '../components/InfoBox';
 import opengl_image from '../assets/temp.png'
 
 import visualizer_image from '../assets/visgif.gif'
-import Info from 'three/src/renderers/common/Info.js';
 // guy who is a CS major but doesnt program : buhhhhh uhhhhhggthhhh thuhhhhhhhhhhhhhhhhhhh uuhhhhh
 //programming projects :
 // openGL renderer
@@ -17,11 +16,12 @@ export default function Prog() {
         <div>
             <h1 className="prog-header">Programming Projects</h1>
             <div className = "default-container">
-                <p> As a practitioner of Computer Science, I do have some programming projects not tied specifically to game development. Most of them focus on computer graphics and rendering.</p>
+                <p> Some programming projects not tied specifically to game development! Most of them focus on computer graphics and rendering.</p>
             </div>
             <InfoBox 
-                title="Vulkan Renderer (2026)"
-                info1="This shit lowkey pisses me the Fuck Off."
+                title={"Vulkan Renderer (2026)"}
+                info1={<p>After reading through the <a href="https://github.com/PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition">Vulkan 3D Graphics Rendering Cookbook</a>, I tried my hand at creating my own simple Vulkan program and library, with some success.</p>}
+                info3={<p><b>Tools used :</b> <br/> Vulkan SDK <br/> C++ </p>}
                 img={opengl_image}
             ></InfoBox>
             <InfoBox 
@@ -39,7 +39,20 @@ export default function Prog() {
                 info2={<p><a href="https://github.com/yeadamk/3d-audio-visualizer">Github Repository</a></p>}
                 info3={<p><b>Tools used :</b> <br/> 3.js <br/></p>}
                 img={visualizer_image}
-            ></InfoBox>        
+            ></InfoBox>
+            <div className='default-container'>
+                <h2> Other Projects </h2>        
+            </div>
+            <div className='compact-container'>
+                <div className = 'compact-sub-container'>
+                    <h3> SMERC Los Angeles Truck Mapping Project</h3>
+                    <p>Using data from Google Maps to approximate parked truck locations, I created a simple model that mapped these locations to positions onto a map of Los Angeles.
+                        <br/>
+                        <br/>
+                        <b>Tools used :</b><br/> Python <br/> Jupyter Notebook <br/> Google Maps API <br/> OpenStreetMap
+                    </p>
+                </div>
+            </div>
         </div>
     );
 }

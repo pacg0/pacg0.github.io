@@ -1,0 +1,14 @@
+.viewport-container {
+    margin:1vw;
+  width: 45%;
+  height: 40vw;
+    background-color: #282c34;
+    padding:0.5vw;
+}
+
+
+.model-viewport {
+  height: 40vw;
+  background: radial-gradient(circle at top, rgba(125, 211, 252, 0.2), rgba(15, 23, 42, 0.95) 60%); 
+}
+

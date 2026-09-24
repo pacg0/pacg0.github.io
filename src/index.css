@@ -34,6 +34,8 @@ a{
 .default-container{
   margin: 5vw;
   background-color: #26492f;
+  border: 1px solid #262930;
+  border-radius: 3px;
 
   display: flex;
   justify-content: center;
@@ -43,9 +45,29 @@ a{
 .default-sub-container{
   margin: 1vw;
   background-color: #282c34;
+  border: 1px solid #262930;
+  border-radius: 3px;
 
   padding: 1vw;
   width: 50vw;
+
+}
+
+.compact-container{
+  margin: 5vw;
+  background-color: #26492f;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.compact-sub-container{
+  margin: 3vw;
+  background-color: #282c34;
+
+  padding-left: 7vw;
+  padding-right: 7vw;
 
 }
 
