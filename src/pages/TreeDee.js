@@ -1,9 +1,12 @@
 import './TreeDee.css'
+import { useState } from 'react';
 import ModelViewport from '../components/ModelViewport';
 import dogModelUrl from '../assets/mesh/dog.glb';
+import poolUrl from '../assets/mesh/pool set.glb';
+import baseUrl from '../assets/mesh/desmascene.glb';
 
 export default function TreeDee() {
-
+    const [model, setModel] = useState(dogModelUrl);
     return (
         <div>
             <h1 className="trd-header">3D Art Projects</h1>
@@ -13,10 +16,19 @@ export default function TreeDee() {
             <div className="default-container">
                 <ModelViewport
                     title="Dog"
-                    modelUrl={dogModelUrl}
+                    modelUrl={model}
                 />
                 <div className="default-sub-container">
-                    gabagool
+                    projects
+                    <div className="default-container" onClick={() => setModel(dogModelUrl)}>
+                        big bottone
+                    </div>
+                    <div className="default-container" onClick={() => setModel(poolUrl)}>
+                        goga bottone
+                    </div>
+                    <div className="default-container" onClick={() => setModel(baseUrl)}>
+                        baba bottone
+                    </div>
                 </div>
             </div>
 
