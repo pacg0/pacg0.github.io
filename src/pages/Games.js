@@ -46,7 +46,25 @@ export default function Games() {
                 img={oceandemoimg}
                 right={true}
             />
-            
+            <div className='default-container'>
+                <h2> Other Games </h2>        
+            </div>
+            <div className='compact-container'>
+                <div className = 'compact-sub-container'>
+                    <h3> Prime Weaver (2025)</h3>
+                    <p>A 3D Action/Adventure game with dozens of unqiue spells and effects! Made in Unreal Engine.
+                        <br/>
+                        Play it <a href="https://destroh3.itch.io/prime-weaver">here!</a>
+                    </p>
+                </div>
+                <div className = 'compact-sub-container'>
+                    <h3> SlimeSara (2025)</h3>
+                    <p>A simple 2D puzzle-platforming game. Created for UCLA's Fiat Ludum 2025 Game Jam.
+                        <br/>
+                        Play it <a href="https://destroh3.itch.io/slimesara">here!</a>
+                    </p>
+                </div>
+            </div>           
         </div>
     );
 }

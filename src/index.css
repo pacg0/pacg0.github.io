@@ -71,6 +71,36 @@ a{
 
 }
 
+.big-container{
+  margin: 1vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: #26492f;
+  border: 1px solid #262930;
+  border-radius: 3px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.big-sub-container{
+  margin: 1vw;
+  background-color: #282c34;
+  border: 1px solid #262930;
+  border-radius: 3px;
+
+  padding: 1vw;
+  width: 50vw;
+
+}
+
+.big-image{
+  width: 40vw;
+  height: 40vw;
+}
+
 .default-image{
   width: 30vw;
   height: 30vw;
