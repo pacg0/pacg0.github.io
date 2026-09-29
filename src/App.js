@@ -29,25 +29,10 @@ function Navigation(){
 
 }
 
-// TODO :: 
-// Home content :
-//  screenshots of various projects (prime weaver, broken dreams, vulkan shit , etc.)
-// About Me content ;:
-//  image of my fat chud face + description of educational background, studio and stuff
-// IMPORTANT ::: links to other things
-// programming projects :
-//  literally just the vulkan project. lol
-// Games :
-//   screenshots of prime weaver, broken dreams, viewports of itch games + sub game if possible 
-// 3D art :
-//  dude . lock in . make some stuff for this i guess .
-// misc :
-//  final fantasy xiv . some drawingsmaybe
-
-// other tasks :
-// unique banners for each page :) 
-// make everything pretty :)
-
+// UPDATED TODO 9/29 :: 
+// generally : get screenshots / title screen shots for everything
+// adjust blender scenes for 3D section
+// idk. thats all
 
 
 function App() {
