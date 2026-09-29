@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.1279dbdc.css",
-    "main.js": "/static/js/main.0bca911c.js",
+    "main.css": "/static/css/main.b0019fab.css",
+    "main.js": "/static/js/main.9e9fa972.js",
     "static/js/453.45093148.chunk.js": "/static/js/453.45093148.chunk.js",
     "static/media/visgif.gif": "/static/media/visgif.8f600e4a4c7d63798409.gif",
     "static/media/misc_banner.jpg": "/static/media/misc_banner.2709a88067dea72c087f.jpg",
+    "static/media/desmascene.glb": "/static/media/desmascene.55788fae0f226e738d7f.glb",
     "static/media/temp.png": "/static/media/temp.0e6bbc8dc3aa777061fe.png",
     "static/media/prog_banner.jpg": "/static/media/prog_banner.80cfcf33084ef100e771.jpg",
     "static/media/home_banner.jpg": "/static/media/home_banner.066b8d03dd0eda43389b.jpg",
+    "static/media/pool set.glb": "/static/media/pool set.1ac8f61b2a88f9ad9bdb.glb",
     "static/media/games_banner.jpg": "/static/media/games_banner.af08d2adc22541d599f7.jpg",
     "static/media/abt_me_banner.jpg": "/static/media/abt_me_banner.452326e9da74fa5f19ed.jpg",
+    "static/media/bpimage.png": "/static/media/bpimage.9c5489fe78bedcc25f2f.png",
     "static/media/3D_banner.jpg": "/static/media/3D_banner.96800fbf0a95cea8655c.jpg",
+    "static/media/dog.glb": "/static/media/dog.c1122d3492bfe92a6c15.glb",
     "static/media/profile_image.jpg": "/static/media/profile_image.5720d0f3892e024bdccf.jpg",
     "index.html": "/index.html",
-    "main.1279dbdc.css.map": "/static/css/main.1279dbdc.css.map",
-    "main.0bca911c.js.map": "/static/js/main.0bca911c.js.map",
+    "main.b0019fab.css.map": "/static/css/main.b0019fab.css.map",
+    "main.9e9fa972.js.map": "/static/js/main.9e9fa972.js.map",
     "453.45093148.chunk.js.map": "/static/js/453.45093148.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1279dbdc.css",
-    "static/js/main.0bca911c.js"
+    "static/css/main.b0019fab.css",
+    "static/js/main.9e9fa972.js"
   ]
 }
