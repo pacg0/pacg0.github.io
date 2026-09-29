@@ -2,11 +2,6 @@ import './Home.css'
 import BigInfoBox from '../components/BigInfoBox';
 import ccimg from '../assets/temp.png'
 import bpimg from '../assets/bpimage.png'
-//contents:
-// cloudy critters
-// broken peaces
-// prime weaver
-// resume
 
 export default function Home() {
     const resumeLink = `${process.env.PUBLIC_URL}/resume v6.pdf`
