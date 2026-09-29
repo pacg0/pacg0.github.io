@@ -1,6 +1,7 @@
 import './Games.css'
 import InfoBox from '../components/InfoBox'
 import skyzooimg from '../assets/temp.png'
+import OceanDemoViewport from '../components/OceanDemoViewport';
 
 export default function Games() {
 
@@ -21,6 +22,7 @@ export default function Games() {
                        Blender</div>}       
                 img={skyzooimg}
             />
+            <OceanDemoViewport />
         </div>
     );
 }
