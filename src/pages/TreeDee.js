@@ -11,7 +11,7 @@ export default function TreeDee() {
         <div>
             <h1 className="trd-header">3D Art Projects</h1>
             <div className = "default-container">
-                <p>I have been learning each step of the 3D art pipeline on the side while at University! <br/> I primarily use Blender, 3D Paint Textura, and Adobe Substance Painter.</p>
+                <p>In addition to my various coding projects, I also do some 3D modelling on the side.<br/> I primarily use Blender, 3D Paint Textura, and Adobe Substance Painter.</p>
             </div>
             <div className="default-container">
                 <ModelViewport

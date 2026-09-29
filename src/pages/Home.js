@@ -7,7 +7,7 @@ export default function Home() {
         <div>
             <h1 className="home-header">Home</h1>
             <div className="default-container">
-                <p>My name is Isidro Godoy, and I am a 21-year old Computer Science student at UCLA, with a STRONG passion for game development!!  Please see some of my best works on this page and the rest of this site :{'>'}
+                <p>Hello! I am Isidro Godoy, and I'm studying Computer Science & Engineering at UCLA. These are some of the projects I am most proud of: :{'>'}
                 </p>
             </div>
         </div>

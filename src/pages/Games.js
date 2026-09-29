@@ -1,7 +1,8 @@
 import './Games.css'
 import InfoBox from '../components/InfoBox'
 import skyzooimg from '../assets/temp.png'
-import OceanDemoViewport from '../components/OceanDemoViewport';
+import bpimage from '../assets/bpimage.png'
+import oceandemoimg from '../assets/temp.png'
 
 export default function Games() {
 
@@ -14,7 +15,7 @@ export default function Games() {
 
             <InfoBox 
                 title="Cloudy Critters (2026)" 
-                info1="[WIP] As art director, I created 3D and 2D assets for this game, while also steering the general art direction and managing a team of 5 artists of various skill levels." 
+                info1="[WIP] As art director, I created 3D and 2D assets for this game, while also steering the general art direction and managing a team of 5 artists of various skill levels. I also made several contributions to the codebase, mostly involving the island's procedural generation system." 
                 info2={<div><b>Tools used :</b>
                        <br/>
                        Unity engine
@@ -22,7 +23,30 @@ export default function Games() {
                        Blender</div>}       
                 img={skyzooimg}
             />
-            <OceanDemoViewport />
+            <InfoBox 
+                title="Broken Peaces (2026)" 
+                info1="The first-place winner of the UCLA Fiat Ludum 2026 Game Jam, Broken Peaces tells the stories of three soldiers in a post-apocalyptic world." 
+                info2={<div><b>Tools used :</b>
+                       <br/>
+                       Unreal Engine
+                       <br/>
+                       Blender</div>}    
+                info3={<div>You can download and play it <a href="https://destroh3.itch.io/broken-peaces">here!</a></div>}   
+                img={bpimage}
+            />
+            <InfoBox 
+                title="Submarine of Doom and Destruction (2026)" 
+                info1="Working with a team of 2 others, I created a simple game that features simulated fish predation behaviors, immersive submarine controls, and a fully-destructible underwater environment!" 
+                info2={<div>I was involved in implementing the submarine controls, as well as modelling and texturing the submarine itself.<br/><br/><b>Tools used :</b>
+                       <br/>
+                       tinygraphics.js library
+                       <br/>
+                       Blender</div>}    
+                info3={<div>You can play it <a href="https://pacg0.itch.io/submarine-of">Here!</a></div>}   
+                img={oceandemoimg}
+                right={true}
+            />
+            
         </div>
     );
 }
